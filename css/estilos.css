@@ -7,9 +7,9 @@ html {
 
 /*Imagen de fondo de las tres páginas*/
 body {
+    margin: 0;
     background-image: url("../img/fondo.png");
 }
-
 /*Menú de navegación en horizontal*/
 nav li {
     display: inline-block;
@@ -31,4 +31,67 @@ a:hover {
 /*Seleccionado*/
 a:active{
     color: indigo;
+}
+/*Encabezado*/
+header {
+    background-color: coral;
+    color: white;
+    padding: 2 rem 3 rem;
+}
+
+header h1,h2 {
+    font-size: 4 rem;
+    text-align: center;
+    color: black;
+    background-color: burlywood;
+}
+
+/*Color de fondo links*/
+li a {
+    background-color: green;
+}
+
+/*Contenido centrado*/
+.contenido {
+   width: 400%;
+    margin: 0 auto;
+}
+
+main section {
+        background-color: white;
+        margin: 1rem 0;
+        border-radius: 0.5rem;
+        padding: 0.25rem 0;
+}
+
+main aside {
+    background-color: yellowgreen;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding:0.25rem 0 ;
+}
+
+main article {
+    background-color: cornflowerblue;
+    margin: 1 rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+}
+
+/*Pie de página*/
+
+footer{
+    background-color: black;
+    padding: 3 rem;
+    color: aliceblue;
+}
+
+footer address p {
+    margin: 0;
+}
+
+footer address p a {
+    transition: color 0.3s ease;
+    color: aliceblue;
+    text-decoration: none;
 }
