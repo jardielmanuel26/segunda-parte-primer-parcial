@@ -13,54 +13,71 @@
     <body>
         <!--Información de presentación de la página (títulos, subtítulos y menú de navegación.)-->
          <header>
+            <div class="header-container">
             <!--Encabezado-->
             <h1>Interactividad, espacio público y arte tecnológico</h1>
             <h2>Rafael Lozano-Hemmer</h2>
             <!--Menú de navegación-->
             <nav>
                 <ul>
-                    <li><a href="index.html" target="_blank">Presentación del artista</a></li>
-                    <li><a href="obras.html" target="_blank">Obras del artista</a></li>
-                    <li><a href="mensaje.html" target="_blank">Mensaje del artista</a></li>
+                    <li><a href="index.html">Presentación del artista</a></li>
+                    <li><a href="obras.html" class="active">Obras del artista</a></li>
+                    <li><a href="mensaje.html">Mensaje del artista</a></li>
                 </ul>
             </nav>
+            </div>
         </header>
         <!--Contenido principal del sitio-->
-        <main>
-            <section class="contenido">
+        <main class="contenido">
+            <section class="seccion-obras">
                 <h3>Sistemas interactivos y tecnología en tiempo real</h3>
                 <p>El trabajo de Rafael Lozano-Hemmer se basa en el desarrollo de sistemas tecnológicos que reaccionan a la presencia humana. Utiliza dispositivos como cámaras, micrófonos y sensores biométricos para captar información del entorno y transformarla en respuestas visuales o sonoras.
                 Estas obras funcionan en tiempo real, generando una relación directa entre acción y resultado. El público no solo observa, sino que influye activamente en el comportamiento de la obra, creando experiencias personalizadas y colectivas al mismo tiempo.</p>
-                <article>
+                <article class="galeria">
                     <h4>Obras y conceptos clave</h4>
-                    <ul>
-                        <li>Pulse Room</li>
-                        <img src="img/lozano-hemmer-2.jpg" alt="Pulse Room" width="400" height="400">
-                        <li>Vectorial Elevation</li>
-                        <img src="img/lozano-hemmer-5.jpg" alt="Vectorial Elevation" width="400" height="400">
-                        <li>33 Questions per Minute</li>
-                        <img src="img/lozano-hemmer-6.jpg" alt="33 Questions per Minute" width="400" height="400">
-                        <li>Body Movies</li>
-                        <img src="img/lozano-hemmer-7.jpg" alt="Body Movies" width="400" height="400">
-                        <li>Interactividad</li>
-                        <img src="img/lozano-hemmer-8.jpg" alt="interactividad" width="400" height="400">
-                        <li>Arte en espacio público</li>
-                        <img src="img/lozano-hemmer-9.jpg" alt="arte en espacio público" width="400" height="400">
+                    <ul class="lista-galeria">
+                        <li>
+                            <span>Pulse Room</span>
+                            <img src="img/lozano-hemmer-2.jpg" alt="Instalación Pulse Room" width="400" height="400">
+                        </li>
+                        <li>
+                            <span>Vectorial Elevation</span>
+                            <img src="img/lozano-hemmer-5.jpg" alt="Instalación Vectorial Elevation" width="400" height="400">
+                        </li>
+                        <li>
+                            <span>33 Questions per Minute</span>
+                            <img src="img/lozano-hemmer-6.jpg" alt="Obra 33 Questions per Minute" width="400" height="400">
+                        </li>
+                        <li>
+                            <span>Body Movies</span>
+                            <img src="img/lozano-hemmer-7.jpg" alt="Instalación urbana Body Movies" width="400" height="400">
+                        </li>
+                        <li>
+                            <span>Interactividad</span>
+                            <img src="img/lozano-hemmer-8.jpg" alt="Concepto de interactividad" width="400" height="400">
+                        </li>
+                        <li>
+                            <span>Arte en espacio público</span>
+                            <img src="img/lozano-hemmer-9.jpg" alt="Concepto de Arte en espacio público" width="400" height="400">
+                        </li>
+                    </ul>
                     </article>
                     <!--Incrustación de video de Youtube-->
-                    <iframe width="560" height="315" src=" https://youtu.be/jTzojcaanDs" title="Youtube video player">No se pudo vargar el video</iframe>
+                    <div class="video-container">
+                    <iframe width="560" height="315" src="https://youtu.be/jTzojcaanDs?si=wA9C2bfTTzFufGdd" title="Youtube video player" allowfullscreen>No se pudo cargar el video</iframe>
+                    </div>
             </section>
-            <hr>
-            <section class="contenido">
+            
+            <section class="seccion-obras">
                 <h3>El espectador como protagonista</h3>
-                <p>En la obra de Rafael Lozano-Hemmer, el espectador ocupa un rol central. Las piezas están diseñadas para activarse únicamente a través de la participación, lo que transforma la experiencia artística en un proceso compartido.
-                Esta participación redefine la relación tradicional entre obra y público. La interacción no es un complemento, sino el núcleo de la propuesta, generando una conexión directa entre el cuerpo, la tecnología y el entorno.</p>
+                <p>En la obra de Rafael Lozano-Hemmer, el espectador ocupa un rol central. Las piezas están diseñadas para activarse únicamente a través de la participación, lo que transforma la experiencia artística en un proceso compartido.</p>
+                <p>Esta participación redefine la relación tradicional entre obra y público. La interacción no es un complemento, sino el núcleo de la propuesta, generando una conexión directa entre el cuerpo, la tecnología y el entorno.</p>
             </section>
         </main>
          <!--Pie de página-->
             <footer>
                 <address>
-                    <p>Para contactarse escribir a <a href="rafael@artedigital.com">Rafael Lozano-Hemmer</a></p>
+                    <p>Para contactarse escribir a <a href="mailto:rafael@artedigital.com">Rafael Lozano-Hemmer</a></p>
                 </address>
             </footer>
     </body>
